@@ -5,9 +5,18 @@
   "author": "First Last <first.last@example.com>",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "mocha"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.1",
+    "mysql": "^2.15.0",
+    "sinon-chai": "^2.14.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "webpack": "^3.8.1"
   }
 }
